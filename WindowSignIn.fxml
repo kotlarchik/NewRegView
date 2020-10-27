@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.ControllerWindSignIn">
+   <children>
+      <Button fx:id="buttonIn1ToWind3" layoutX="239.0" layoutY="305.0" mnemonicParsing="false" onAction="#pressIn" text="Войти">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonReg1ToWind2" layoutX="401.0" layoutY="305.0" mnemonicParsing="false" text="Регистрация">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c800f542" height="400.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+      <Label layoutX="239.0" layoutY="114.0" prefHeight="30.0" prefWidth="55.0" text="Login:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="212.0" layoutY="185.0" text="Password:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtLoginSignIn" layoutX="322.0" layoutY="117.0" prefWidth="200.0" />
+      <PasswordField fx:id="txtPassSignIn" layoutX="322.0" layoutY="188.0" prefWidth="200.0" />
+      <Label fx:id="txtStatusSignIn" alignment="CENTER" layoutX="213.0" layoutY="49.0" prefHeight="25.0" prefWidth="343.0" textFill="#00ff2ad1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
